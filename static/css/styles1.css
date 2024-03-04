@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.box-content {
+    text-align: center;
+    padding: 10px;
+}
+
+.box h2 {
+    margin: 0;
+}
+
+.box p {
+    margin: 0;
+}
+
+.selected {
+    background-color: lightblue;
+}
